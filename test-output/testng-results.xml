@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-07T01:51:46 IST" name=" Maven suite" finished-at="2021-07-07T01:52:15 IST" duration-ms="29622">
+    <groups>
+    </groups>
+    <test started-at="2021-07-07T01:51:46 IST" name="Maven test" finished-at="2021-07-07T01:52:15 IST" duration-ms="29622">
+      <class name="com.cryptoquant.qa.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cryptoquant.qa.testcases.LoginPageTest@1b7cc17c]" started-at="2021-07-07T01:51:46 IST" name="setUp" finished-at="2021-07-07T01:52:00 IST" duration-ms="14144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="cryptoquantLogoImageTest()[pri:1, instance:com.cryptoquant.qa.testcases.LoginPageTest@1b7cc17c]" started-at="2021-07-07T01:52:00 IST" name="cryptoquantLogoImageTest" finished-at="2021-07-07T01:52:00 IST" duration-ms="406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cryptoquantLogoImageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cryptoquant.qa.testcases.LoginPageTest@1b7cc17c]" started-at="2021-07-07T01:52:00 IST" name="tearDown" finished-at="2021-07-07T01:52:01 IST" duration-ms="544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cryptoquant.qa.testcases.LoginPageTest@1b7cc17c]" started-at="2021-07-07T01:52:01 IST" name="setUp" finished-at="2021-07-07T01:52:13 IST" duration-ms="12181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:2, instance:com.cryptoquant.qa.testcases.LoginPageTest@1b7cc17c]" started-at="2021-07-07T01:52:13 IST" name="loginTest" finished-at="2021-07-07T01:52:15 IST" duration-ms="1784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cryptoquant.qa.testcases.LoginPageTest@1b7cc17c]" started-at="2021-07-07T01:52:15 IST" name="tearDown" finished-at="2021-07-07T01:52:15 IST" duration-ms="488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.cryptoquant.qa.testcases.LoginPageTest -->
+    </test> <!-- Maven test -->
+  </suite> <!--  Maven suite -->
+</testng-results>

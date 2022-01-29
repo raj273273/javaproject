@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name=" Maven suite">
+
+<listeners>
+
+<listener class-name= "com.qa.Listener.ExtentReporterNG" />
+<listener class-name= "com.qa.Listener.TestListener" />
+
+</listeners>
+	<test name="Maven test">
+
+		<packages>
+			<package name="com.cryptoquant.qa.testcases.*" />
+		</packages>
+
+>>
+		<!-- <class name="com.executeallclasseofpackage.Test1" /> -->
+		<!-- <class name="com.executeallclasseofpackage.Test2" /> -->
+
+		<!-- </classes> -->
+
+	</test>
+</suite>
